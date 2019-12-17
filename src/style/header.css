@@ -1,0 +1,29 @@
+.header {
+    height: 60px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.user {
+    margin: 0 10px 0 20px
+}
+
+.sub-title {
+    height: 40px;
+    border-bottom: 1px solid #1890ff;
+    padding-bottom: 10px;
+    margin: 0 15px 10px;
+}
+
+.sub-title>div+div {
+    margin-left: 8px
+}
+
+.fc-bl {
+    color: #1890ff
+}
+
+.fc-b {
+    color: #606266
+}

@@ -1,0 +1,14 @@
+.form-content {
+    padding: 5px 15px 0;
+}
+
+.form-title {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e9ecf3;
+}
+
+.form-title>span {
+    color: #1890ff;
+    margin-left: 8px;
+}

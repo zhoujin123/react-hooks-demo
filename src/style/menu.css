@@ -1,0 +1,16 @@
+.menu {
+    width: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    height: 100%;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.ant-menu-inline {
+    border: 0
+}
+
+.ant-menu-item::after {
+    border: 0 !important
+}

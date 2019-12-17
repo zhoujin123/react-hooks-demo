@@ -1,0 +1,20 @@
+.select>span {
+    margin: 0 10px
+}
+
+.btn {
+    margin: 0 10px
+}
+
+.table {
+    margin: 16px 0
+}
+
+.page {
+    text-align: center;
+}
+
+.operate {
+    cursor: pointer;
+    color: #1890ff
+}

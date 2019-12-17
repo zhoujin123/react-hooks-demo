@@ -1,0 +1,64 @@
+.home {
+    padding: 0 15px;
+    color: #666666;
+    height: calc(100% - 40px);
+    overflow: scroll;
+}
+
+.pri-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blank-box {
+    padding: 20px 0;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sbox {
+    height: 120px
+}
+
+.bbox {
+    height: 375px;
+}
+
+.chart {
+    margin: 0 10px 20px;
+    width: 50%
+}
+
+.sub-box {
+    padding: 20px
+}
+
+.middle {
+    margin: 0 20px;
+    text-align: center;
+    width: 104px
+}
+
+.order-0 {
+    color: #FF5B5B
+}
+
+.order-1 {
+    color: #5C9ACF
+}
+
+.order-2 {
+    color: #1CC09F
+}
+
+.order-3 {
+    color: #666666
+}
+
+.chart-title {
+    padding: 0px 20px 18px;
+    border-bottom: 1px solid #EBEEF5;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+}
