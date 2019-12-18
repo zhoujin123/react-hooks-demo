@@ -44,7 +44,7 @@ class Home extends Component {
     render() { 
         return ( 
             <div style={{height: '100%'}}>
-                <ListHeader title=""/>
+                <ListHeader header={[]}/>
                 <div className="home">
                     <div className="pri-title">今日订单</div>
                     <div className="blank-box flex sbox">

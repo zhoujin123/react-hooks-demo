@@ -1,7 +1,7 @@
 import Home from '../pages/home'
 import Order from '../pages/bill/order'
-import GoodList from '../pages/goods/list'
-import GoodAdd from '../pages/goods/add'
+import GoodList from '../pages/goods/goodManage/index'
+import GoodAdd from '../pages/goods/goodManage/add'
 const menus = [{
     name: '首页',
     key: '/home',
@@ -16,7 +16,7 @@ const menus = [{
         name: '订货单',
         key: '/bill/order',
         icon:'',
-        comp: Order
+        comp: Order,
     }]
 },{
     name: '商品',
@@ -25,12 +25,12 @@ const menus = [{
     comp: '',
     subs: [{
         name: '商品管理',
-        key: '/goods/list',
+        key: '/goods/goodManage/index',
         icon:'',
         comp: GoodList,
     },{
         name: '商品管理新增',
-        key: '/goods/add',
+        key: '/goods/goodManage/add',
         icon:'',
         comp: GoodAdd,
         hidden: true,

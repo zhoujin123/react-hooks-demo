@@ -12,3 +12,7 @@
     color: #1890ff;
     margin-left: 8px;
 }
+
+.ant-input-number {
+    width: 100%
+}

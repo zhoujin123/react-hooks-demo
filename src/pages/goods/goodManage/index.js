@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import ListHeader from '../../components/listHeader'
+import ListHeader from '../../../components/listHeader'
 import { Select, Input, Table, Button } from 'antd'
 import { Link } from 'react-router-dom'
-import '../../style/order.css'
+import '../../../style/order.css'
 
 const { Option } = Select
 const columns = [
@@ -55,8 +55,8 @@ const columns = [
 function GoodList() {
     return (
         <div>
-            <ListHeader title="商品管理">
-                <Link to="/goods/add"><Button type="primary">+ 新增</Button></Link>
+            <ListHeader header={["商品管理"]}>
+                <Link to="/goods/goodManage/add"><Button type="primary">+ 新增</Button></Link>
             </ListHeader>
             <div className="select">
                 <span>名称</span>

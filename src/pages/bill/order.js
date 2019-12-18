@@ -119,7 +119,7 @@ function Order() {
 
     return (
         <div>
-            <ListHeader title="订单" />
+            <ListHeader header={["订单"]} />
             <div className="select">
                 <span>关键字</span>
                 <Input
