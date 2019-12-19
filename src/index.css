@@ -9,3 +9,13 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+
+/* 这部分为全局重置antdesign的样式 */
+
+.ant-upload,
+.ant-upload-list-item {
+    width: 148px !important;
+    height: 148px !important;
+    background: #fbfdff;
+}
